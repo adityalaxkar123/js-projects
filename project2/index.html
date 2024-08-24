@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmi Generator</title>
+    <style>
+        nav{
+            background-color: rgb(245, 245, 245);
+            display: flex;
+            align-items: center;
+            height: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            background-color:rgb(110, 193, 193);
+            width: 200px;
+            height: 30px;
+            text-align: center;
+            align-content: center;
+            color: black;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-wrap:wrap; 
+        }
+        h1{
+            text-wrap:wrap ;
+            text-align: center;
+        }
+        h3{
+            text-wrap:wrap ;
+            text-align: center;
+        }
+
+        label{
+            font-size: 20px;
+            font-weight: 600;
+            text-wrap: wrap;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .d{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .btn{
+            margin-top: 20px;
+            font-size: 20px;
+            background-color: rgb(99, 99, 245);
+            color: antiquewhite;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            margin-top: 20px;
+            font-size: 20px;
+            background-color: rgb(61, 61, 223);
+            color: antiquewhite;
+            cursor: pointer;
+        }
+        .result{
+            margin-top: 20px;
+            font-size: 20px;
+            text-wrap: wrap;
+        }
+        .text{
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="mailto:laxkaraditya55@gmail.com" target="_blank" aria-label="link">Gmail id</a>
+    </nav>
+
+    <div class="container">
+        <h1>Bmi Generator</h1>
+        <form>
+        <div class="d"><label>Height in Cm :</label><input type="text"  id="height"></div>    
+        <div class="d"><label>weight in Kg :</label><input type="text"  id="weight"></div>
+        <button class="btn">Calculate</button>    
+        <div class="result"></div>
+        <h3>BMI WEIGHT GUIDES</h3>
+        <div class="text">Under Weight = Less Than 18.6</div>
+        <div class="text">Normal Range = 18.6 to 24.9</div>
+        <div class="text">Over Weight = More Than 24.9</div>
+        </form>
+        
+    </div>
+    <script src="/project/project2/script.js"></script>
+</body>
+</html>
