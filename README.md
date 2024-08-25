@@ -11,3 +11,8 @@ fourth project include a famous js project which is guess a number.
 fifth project shows the iterative change in background color using advanced eventListner.
 
 sixth project displays the pressed keyword of keyboard.
+
+seventh project is to-do-list using html css javascript
+
+eightth project is an github profile search web app using advanced js using of api and fetch
+
