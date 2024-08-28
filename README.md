@@ -16,3 +16,6 @@ seventh project is to-do-list using html css javascript
 
 eightth project is an github profile search web app using advanced js using of api and fetch
 
+project 9 includes an image slider using js 
+
+project 10 includes a image search engine using advanced javascript api and fetch
